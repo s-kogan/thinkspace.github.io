@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SAMStagram</title>
+
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+    
+    <body>
+
+        <div class="header">
+            <p id=profile><b><a href="profile.html"> Profile </a></b></p>
+        	<h1> SAMS-tagram </h1>
+        </div>
+
+        <div id="background-block">
+                <h2> New Post! </h2>
+                <p> Image URL </p>
+        <form id="form1">
+            <input type="text" id="image_input"> <!-- first input box -->
+            <p> Caption </p> 
+            <input type="text" id="image_caption"> <!-- second input box -->
+            <input type="submit" value="Post" id="post_button"> <!-- submit button -->
+        </form>
+        </div>
+
+        <div id="container">
+            <!-- for js to appened a bunch of stuff here -->
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-storage.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
